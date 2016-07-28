@@ -1,0 +1,16 @@
+{
+  "name": "@f/matches-selector",
+  "description": "Polyfill for Element.prototype.matches",
+  "repository": "git://github.com/micro-js/matches-selector.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "hihat": "^2.5.0",
+    "tape": "^4.6.0"
+  }
+}
