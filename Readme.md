@@ -17,15 +17,19 @@ Polyfill for Element.prototype.matches
 ```js
 var matchesSelector = require('@f/matches-selector')
 
+
+if (matchesSelector(':hover"'))
+
 ```
 
 ## API
 
-### matchesSelector(arg)
+### matchesSelector(node, selector)
 
-- `arg` -
+- `node` - DOM Element
+- `selector` - Selector. E.g. `:hover`, `.modal`.
 
-**Returns:**
+**Returns:** Boolean indicating whether or not `node` matched `selector`.
 
 ## License
 
